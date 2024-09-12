@@ -6,7 +6,7 @@ lazy_static::lazy_static! {
 }
 
 pub const DISPLAY_SERVER_WAYLAND: &str = "wayland";
-pub const DISPLAY_SERVER_X11: &str = "x11";
+pub const DISPLAY_SERVER_X11: &str = "Xorg";
 
 pub struct Distro {
     pub name: String,
